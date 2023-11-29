@@ -11,6 +11,10 @@
 		2C840E9F2B17F86700A7DF53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C840E9E2B17F86700A7DF53 /* ContentView.swift */; };
 		2C840EA12B17F86800A7DF53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C840EA02B17F86800A7DF53 /* Assets.xcassets */; };
 		2C840EA42B17F86800A7DF53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C840EA32B17F86800A7DF53 /* Preview Assets.xcassets */; };
+		2C840EAB2B17F8AA00A7DF53 /* PlayVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C840EAA2B17F8AA00A7DF53 /* PlayVideo.swift */; };
+		2C840EAD2B17F8B600A7DF53 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C840EAC2B17F8B600A7DF53 /* PlaySound.swift */; };
+		2C840EAF2B17F92900A7DF53 /* Turtle.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2C840EAE2B17F92900A7DF53 /* Turtle.mp4 */; };
+		2C840EB12B17F93600A7DF53 /* 1JPark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C840EB02B17F93600A7DF53 /* 1JPark.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		2C840E9E2B17F86700A7DF53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C840EA02B17F86800A7DF53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C840EA32B17F86800A7DF53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C840EAA2B17F8AA00A7DF53 /* PlayVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideo.swift; sourceTree = "<group>"; };
+		2C840EAC2B17F8B600A7DF53 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		2C840EAE2B17F92900A7DF53 /* Turtle.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Turtle.mp4; sourceTree = "<group>"; };
+		2C840EB02B17F93600A7DF53 /* 1JPark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1JPark.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				2C840E9E2B17F86700A7DF53 /* ContentView.swift */,
 				2C840EA02B17F86800A7DF53 /* Assets.xcassets */,
 				2C840EA22B17F86800A7DF53 /* Preview Content */,
+				2C840EAA2B17F8AA00A7DF53 /* PlayVideo.swift */,
+				2C840EAC2B17F8B600A7DF53 /* PlaySound.swift */,
+				2C840EB02B17F93600A7DF53 /* 1JPark.mp3 */,
+				2C840EAE2B17F92900A7DF53 /* Turtle.mp4 */,
 			);
 			path = "In Class Playing Audio and Video";
 			sourceTree = "<group>";
@@ -126,7 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C840EA42B17F86800A7DF53 /* Preview Assets.xcassets in Resources */,
+				2C840EB12B17F93600A7DF53 /* 1JPark.mp3 in Resources */,
 				2C840EA12B17F86800A7DF53 /* Assets.xcassets in Resources */,
+				2C840EAF2B17F92900A7DF53 /* Turtle.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C840EAB2B17F8AA00A7DF53 /* PlayVideo.swift in Sources */,
 				2C840E9F2B17F86700A7DF53 /* ContentView.swift in Sources */,
+				2C840EAD2B17F8B600A7DF53 /* PlaySound.swift in Sources */,
 				2C840E9D2B17F86700A7DF53 /* In_Class_Playing_Audio_and_VideoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
